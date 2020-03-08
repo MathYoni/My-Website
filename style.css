@@ -1,0 +1,72 @@
+#myname {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #150748;
+	font-size: 40pt;
+	vertical-align: top;
+}
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	background-color: #1b5488; /*#150748;*/
+}
+h3 {
+   margin-top: 0;
+   padding-top: 0;
+}
+#maintext {
+	background-color: #e4ddcb; /* #c6d9e4; */
+	color: #150748;
+	margin: 10pt;
+	padding-left: 20pt;
+	padding-right: 20pt;
+	padding-top: 10pt;
+	padding-bottom: 10pt;
+	max-width: 3000pt;
+}
+.textchunk {
+    background-color: #f4f2ec;
+	padding: 15pt;
+	margin-left: 15pt;
+	margin-right: 15pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+}
+#menubar {
+	background-color: #f4f2ec;
+	padding: 20pt;
+	margin-left: -40pt;
+	margin-right: -40pt;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+	display: grid;
+	grid: 20pt / auto auto auto auto auto;
+}
+
+a.menulink {
+    font-size: 20pt;
+	font-weight: bold;
+	text-align: center;
+	color: #150748;
+	text-decoration: none;
+}
+
+a.inactivemenulink {
+	font-size: 20pt;
+	font-weight: bold;
+	text-align: center;
+	color: #115fac;
+}
+
+a.menulink:hover {
+	color: #1b82e8;
+}
+
+.column {
+	flex: 50%;
+	padding: 20px;
+}
+
+.row {
+	display: flex;
+}
